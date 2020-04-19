@@ -23,5 +23,19 @@ namespace MyService
                 Message = "Hello from " + request.Name
             };
         }
+        public override async Task<HelloReplyList> SayHelloList(HelloRequest request, ServerCallContext context)
+        {
+            await Task.Delay(1000);
+            var list = new HelloReplyList();
+            for (int i = 0; i < 10; i++)
+            {
+                list.List.Add(new HelloReply
+                {
+                    Message = "Hello Muhammed " + i
+                });
+            }
+
+            return list;
+        }
     }
 }
