@@ -17,7 +17,7 @@ namespace MyService
 
         public override async Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
-           await Task.Delay(3000);
+           await Task.Delay(1000);
             return new HelloReply
             {
                 Message = "Hello from " + request.Name
