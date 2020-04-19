@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService", "MyService\MyService.csproj", "{B8425332-96A0-438A-AAED-D7A69AE84ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyService", "MyService\MyService.csproj", "{B8425332-96A0-438A-AAED-D7A69AE84ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "GrpcGreeterClient\GrpcGreeterClient.csproj", "{2C8C2251-E583-4CE1-82DB-6499502D075B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeterClient", "GrpcGreeterClient\GrpcGreeterClient.csproj", "{2C8C2251-E583-4CE1-82DB-6499502D075B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpc-WebApp", "grpc-WebApp\grpc-WebApp.csproj", "{C2BB9DEF-44AD-458D-82E5-00DE3EEB7DAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2C8C2251-E583-4CE1-82DB-6499502D075B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C8C2251-E583-4CE1-82DB-6499502D075B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C8C2251-E583-4CE1-82DB-6499502D075B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BB9DEF-44AD-458D-82E5-00DE3EEB7DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BB9DEF-44AD-458D-82E5-00DE3EEB7DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BB9DEF-44AD-458D-82E5-00DE3EEB7DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BB9DEF-44AD-458D-82E5-00DE3EEB7DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
